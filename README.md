@@ -1,5 +1,2 @@
-# ScrollingText
-This app perform scrolling functionality for text view.
-
-
-<img src="images/a.png" width="250px"/>     <img src="images/b.png" width="250px"/>
+# Google Meet Guide
+This app provides you with a handy guide to use new google meet app!
