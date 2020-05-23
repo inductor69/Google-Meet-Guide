@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Meet Guide</string>
+    <string name="lorem_ipsum">Google Meet Guide</string>
+    <string name="link">https://meet.google.com/</string>
+    <string name="What_Is_lorem_ipsum">Google Meet Guide!</string>
+    <string name="paragraph">
+        <b>•How to Schedule a Meeting</b> (class sessions and office hours)
+        \n\n
+        1.Access Google Calendar.
+        \n\n
+        2.Create a new event and select More Options.
+        \n\n
+        3.Click Add Conferencing and then Hangouts Meet.
+        \n\n
+        4.Add students Gmail addresses under Guests.
+        \n\n
+        5.Select the paperclip symbol to attach optional documents, presentations, videos, etc.
+        \n\n
+        6.Use the description box for relevant information
+        \n\n
+        7.Click Save and then Send
+
+        \n\n
+    <b>•Every person on the guest list will receive an email with the meeting link and all attachments. Scheduled meetings can be accessed from the email link, Google Calendar,or https://meet.google.com. </b>
+        \n\n
+    <b>•How to Create an Instant Meeting</b>
+        \n\n
+        1.Go to https://meet.google.com
+        \n\n
+        2.Click Start a Meeting > Continue
+        \n\n
+        3.Allow access to camera and microphone
+                \n\n
+        4.Click Start Meeting.
+        \n\n
+        5.To add participants:
+        \n\n
+            ▪Manually enter email addresses in the "Add People" tab.
+        \n\n
+            ▪Copy meeting link and send it in an email, Blackboard announcement, or GoogleClassroom post.
+        \n\n
+     <b>•How to Join a Meeting</b>
+        \n\n
+        1.Click on the meeting link to instantly join or type in the meeting code onhttps://meet.google.com
+        \n\n
+        2.Allow access to camera and microphone.
+        \n\n
+     <b>•How to Leave a Meeting</b>
+        \n\n
+        1.Press the hang up symbol to exit.
+        \n\n
+        2.Click Rejoin to reenter.
+        \n\n
+     <b>•How to Present in a Meeting (PowerPoints, documents, etc.) </b>
+        \n\n
+        1.Open the file(s) before or during the meeting
+        \n\n
+        2.Select Present Now > A window or Entire screen > Share‘A window’ allows you to present a single file while ‘Entire screen’ allows you toshow multiple files on your screen without stopping and starting a new presentation
+        \n\n
+        3.Press Stop Sharing to stop presenting
+        \n\n
+     <b>•How to Chat in a Meeting</b>
+        \n\n
+        1.Press the message symbol in the upper right-hand corner
+        \n\n
+        2.Type in the chat box below
+        \n\n
+        3.Messages will appear on all participants’ screens
+        \n\n
+      <b>•How to Record Meeting</b>
+        \n\n
+        1.Join the meeting
+        \n\n
+        2.Click on the three dots on the bottom right corner
+        \n\n
+        3.Select Record Meeting
+        \n\n
+        4.To stop recording, click the three dots > Stop Recording
+        \n\n
+        5.Allow 10 or more minutes for the recording to be generated in the host’s Google Drive. An email link (that can be shared) will also be emailed to the host.
+        \n\n
+       <b>•Special Considerations</b>
+        \n\n
+        -Hosts/professors, please use a quiet space for meetings
+        \n\n
+        -Participants/students, please keep the camera and microphone off (unless needed) during meetings for a better connection
+        \n\n
+        -Please do not present videos during meetings. The audio will not play. We suggest attaching audio/video files to the scheduled meeting event. You can also upload the files to your Google Drive and share with students/participants.
+        \n\n
+        -When presenting in a meeting, you have the option to keep your camera on or turn it off
+        \n\n
+    </string>
+    <string name="ContactButton">Google Meet Guide!</string>
+    <string name="AboutButton">Google Meet Guide!</string>
+    <string name="AlbumButton">Google Meet Guide!</string>
+</resources>
