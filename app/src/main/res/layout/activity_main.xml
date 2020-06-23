@@ -1,49 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:id="@+id/category_main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.googlemeet.guide.MainActivity">
 
-    <TextView
-        android:id="@+id/heading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#121212"
-        android:padding="20dp"
-        android:text="@string/lorem_ipsum"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#fff"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/subHeading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/heading"
-        android:layout_marginTop="5dp"
-        android:padding="15dp"
-        android:gravity="center"
-        android:text="@string/What_Is_lorem_ipsum"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="15sp" />
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/subHeading">
-        <TextView
-            android:id="@+id/paragraph"
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/bg"
+            android:weightSum="3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoLink="web"
-            android:layout_below="@+id/subHeading"
-            android:text="@string/paragraph"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp" />
-    </androidx.core.widget.NestedScrollView>
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/textGrid"
+                    android:text="Guide For Meet"
+                    android:textSize="34sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" />
+
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/mainGrid"
+                android:columnCount="1"
+                android:rowCount="1"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_weight="8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="14dp"
+                >
+
+                <!-- Row 1 -->
+
+                <!-- Column 1 -->
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="381dp"
+                    android:layout_height="240dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Tap to Explore"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="38sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Column 2 -->
+
+
+            </GridLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"

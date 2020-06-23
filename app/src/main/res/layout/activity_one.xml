@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityOne">
+
+    <Button
+        android:id="@+id/customButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Schedule a Meeting"/>
+
+    <Button
+        android:id="@+id/customButton2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/customButton"
+        android:layout_marginTop="24sp"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Create an Instant Meeting"/>
+
+    <Button
+        android:id="@+id/customButton3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/customButton"
+        android:layout_marginBottom="24sp"
+        android:layout_marginTop="24sp"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Join a Meeting"/>
+
+    <Button
+        android:id="@+id/customButton4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/customButton"
+        android:layout_alignBottom="@id/customButton3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Leave a Meeting" />
+    <Button
+        android:id="@+id/customButton5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/customButton"
+        android:layout_alignBottom="@id/customButton4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Present in a Meeting" />
+    <Button
+        android:id="@+id/customButton6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customButton2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_dialog"
+        android:text="How to Chat in a Meeting" />
+    <Button
+        android:id="@+id/customButton7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customButton6"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/custom_dialog"
+        android:text="How to Record Meeting" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3780736957915970/1061706862">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,10 +1,7 @@
 <resources>
     <string name="app_name">Meet Guide</string>
-    <string name="lorem_ipsum">Google Meet Guide</string>
-    <string name="link">https://meet.google.com/</string>
-    <string name="What_Is_lorem_ipsum">Google Meet Guide!</string>
-    <string name="paragraph">
-        <b>•How to Schedule a Meeting</b> (class sessions and office hours)
+    <string name="lol">
+      <b>•How to Schedule a Meeting</b> (class sessions and office hours)
         \n\n
         1.Access Google Calendar.
         \n\n
@@ -23,7 +20,12 @@
         \n\n
     <b>•Every person on the guest list will receive an email with the meeting link and all attachments. Scheduled meetings can be accessed from the email link, Google Calendar,or https://meet.google.com. </b>
         \n\n
-    <b>•How to Create an Instant Meeting</b>
+
+
+    </string>
+    <string name="lol6" />
+    <string name="lol5" >
+        <b>•How to Create an Instant Meeting</b>
         \n\n
         1.Go to https://meet.google.com
         \n\n
@@ -39,27 +41,43 @@
         \n\n
             ▪Copy meeting link and send it in an email, Blackboard announcement, or GoogleClassroom post.
         \n\n
-     <b>•How to Join a Meeting</b>
-        \n\n
-        1.Click on the meeting link to instantly join or type in the meeting code onhttps://meet.google.com
-        \n\n
-        2.Allow access to camera and microphone.
-        \n\n
-     <b>•How to Leave a Meeting</b>
-        \n\n
-        1.Press the hang up symbol to exit.
-        \n\n
-        2.Click Rejoin to reenter.
-        \n\n
-     <b>•How to Present in a Meeting (PowerPoints, documents, etc.) </b>
+
+    </string>
+    <string name="lol4" >
+  <b>•How to Present in a Meeting (PowerPoints, documents, etc.) </b>
         \n\n
         1.Open the file(s) before or during the meeting
         \n\n
         2.Select Present Now > A window or Entire screen > Share‘A window’ allows you to present a single file while ‘Entire screen’ allows you toshow multiple files on your screen without stopping and starting a new presentation
         \n\n
         3.Press Stop Sharing to stop presenting
+        \n\n    </string>
+    <string name="lol3" >
+        At this point in time, only one premium video is playable from one subscriber account. This is to ensure that your premium membership is not misused.
+
+In case you see an error that says you are trying to access premium videos from more than one device, please check if you are already streaming another premium video at the same time from another device. To continue watching the current video, make sure you have stopped the earlier video. Refresh on current device to continue watching the premium video.
+
+
+    </string>
+    <string name="lol1" >
+  <b>•How to Leave a Meeting</b>
         \n\n
-     <b>•How to Chat in a Meeting</b>
+        1.Press the hang up symbol to exit.
+        \n\n
+        2.Click Rejoin to reenter.
+        \n\n
+
+    </string>
+    <string name="lol2" >
+         <b>•How to Join a Meeting</b>
+        \n\n
+        1.Click on the meeting link to instantly join or type in the meeting code onhttps://meet.google.com
+        \n\n
+        2.Allow access to camera and microphone.
+        \n\n
+    </string>
+    <string name="lol8" >
+ <b>•How to Chat in a Meeting</b>
         \n\n
         1.Press the message symbol in the upper right-hand corner
         \n\n
@@ -67,7 +85,9 @@
         \n\n
         3.Messages will appear on all participants’ screens
         \n\n
-      <b>•How to Record Meeting</b>
+    </string>
+    <string name="lol9" >
+         <b>•How to Record Meeting</b>
         \n\n
         1.Join the meeting
         \n\n
@@ -90,7 +110,4 @@
         -When presenting in a meeting, you have the option to keep your camera on or turn it off
         \n\n
     </string>
-    <string name="ContactButton">Google Meet Guide!</string>
-    <string name="AboutButton">Google Meet Guide!</string>
-    <string name="AlbumButton">Google Meet Guide!</string>
 </resources>

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.googlemeet.guide" >
+    package="com.googlemeet.guide">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3780736957915970~3687870204"/>
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.googlemeet.guide.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.googlemeet.guide.ActivityOne" />
+        <activity android:name="com.googlemeet.guide.ActivityTwo" />
+        <activity android:name="com.googlemeet.guide.Ac1" />
+        <activity android:name="com.googlemeet.guide.Ac2" />
+        <activity android:name="com.googlemeet.guide.Ac3" />
+        <activity android:name="com.googlemeet.guide.Ac4" />
+        <activity android:name="com.googlemeet.guide.Ac5" />
+        <activity android:name="com.googlemeet.guide.Ac6" />
+
+
     </application>
 
 </manifest>
